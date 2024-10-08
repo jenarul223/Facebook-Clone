@@ -1,0 +1,120 @@
+/* Common CSS */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #1c1e21;
+}
+/* ==================== */
+.content{
+  background-color: #f0f2f5;
+  
+}
+.container{
+  padding: 20px 0;
+  justify-content: space-between;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  padding: 72px 0 112px;
+  align-items: center;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+.from_area{
+  background: #fff;
+  width: 396px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px #ddd;
+}
+.from_area form input{
+  width: 100%;
+  display: block;
+  padding: 14px 16px;
+  font-size: 17px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 28px;
+  font-weight: normal;
+  color: #1c1e21;
+  padding-left: 30px;
+}
+.img_area{
+  flex-basis: 540px;
+}
+form {
+  text-align: center;
+}
+#btn{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+  cursor: pointer;
+}
+.from_area a{
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.from_area a:hover{
+  text-decoration: underline;
+}
+.from_area button{
+  cursor: pointer;
+  background: #36a420;
+  border: 1px solid #36a420;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 6px;
+  
+}
+button a{
+  color: #fff!important;
+  font-size: 20px;
+}
+.btn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/* =============== */
+/* footer area style */
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+footer{
+  justify-content: center;
+  display: flex;
+}
+footer ul{
+  margin-top: 20px;
+}
+footer ul li a{
+  color: #1c1e21;
+  font-weight: 500;
+  margin-right: 10px;
+}
